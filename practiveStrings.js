@@ -36,10 +36,10 @@ console.log("Well, it was nice to talk to you. Have a nice day!")
 
 console.log("Hello! I'm your coding fun fact guide!");
 let botName = "funBot";
-let botLocation = "yourHearth";
+let botLocations = "yourHearth";
 let favoriteLanguage = "JavaScript";
 
-console.log("My name is "+botName+" and I live on "+botLocation+".");
+console.log("My name is "+botName+" and I live on "+botLocations+".");
 
 console.log("My favorite programming language is "+favoriteLanguage+".");
 
@@ -56,5 +56,5 @@ console.log(codingFact);
 codingFact = favoriteLanguage+" I love you"+".";
 console.log(codingFact);
 
-console.log("It was fun sharing these facts with you. Goodbye! - "+botName+" from "+ botLocation+".");
+console.log("It was fun sharing these facts with you. Goodbye! - "+botName+" from "+ botLocations+".");
 
