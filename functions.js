@@ -40,3 +40,25 @@ function calculateSquareRoot(num) {
 }
 console.log(calculateSquareRoot(25));
 console.log(calculateSquareRoot(100));
+
+//verifica que un argumentos sea boolean
+function booWho(a){
+  if(a === true || a === false){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+
+//enmascaara un email con asteriscos
+
+//let email = "jhoelOlivera165@gmail.com";
+let email = "user@domain.org";
+function maskEmail(email){
+  let num = email.indexOf("@") -1;
+  let ast = "*";
+  email = email[0]+ast.repeat(num-1)+email.slice(num);
+  return email;
+}
+console.log(maskEmail(email));
